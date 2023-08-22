@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 70%;
+    background-attachment: fixed; /* Isso torna a imagem de fundo fixa */
+    background-size: 800px 600px; /* Defina a largura e a altura desejadas em pixels */
+    background-color: rgb(140, 0, 255);
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}

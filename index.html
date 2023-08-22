@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Camilla Angélica da Silva</h1>
+    <h2>Me da um beijinho?</h2>
+    <a href="sim.html"><button id="botaoFixo">Sim</button></a>
+    <button id="botaoFugitivo">Não</button>
+
+    <script>
+        const botaoFugitivo = document.getElementById("botaoFugitivo");
+
+        botaoFugitivo.addEventListener("mouseover", () => {
+            const maxX = window.innerWidth - botaoFugitivo.clientWidth;
+            const maxY = window.innerHeight - botaoFugitivo.clientHeight;
+            
+            const randomX = Math.random() * maxX;
+            const randomY = Math.random() * maxY;
+
+            botaoFugitivo.style.left = `${randomX}px`;
+            botaoFugitivo.style.top = `${randomY}px`;
+        });
+    </script>
+</body>
+</html>
